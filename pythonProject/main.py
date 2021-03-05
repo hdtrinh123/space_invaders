@@ -207,7 +207,7 @@ while running:
             score_value += 1
             enemyX[i] = random.randint(0, 739)
             enemyY[i] = random.randint(50, 150)
-            if num_of_enemies < 6:
+            if num_of_enemies < 5:
                 createEnemy()
                 num_of_enemies += 1
 
